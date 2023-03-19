@@ -22,7 +22,8 @@ namespace CSharp {
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
-                {"Teste", Teste.Executar }
+                {"Exercício: Múltiplos de 2,3,4 e 5", Teste.Executar },
+                {"Exercício: Número primo", NumeroPrimo.Executar }
 
             });
 

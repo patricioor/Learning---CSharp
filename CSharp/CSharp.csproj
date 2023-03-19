@@ -58,6 +58,7 @@
     <Compile Include="Fundamentos\OperadoresUnarios.cs" />
     <Compile Include="Fundamentos\OperadorTernario.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
+    <Compile Include="Fundamentos\NumeroPrimo.cs" />
     <Compile Include="Fundamentos\VariáveisEConstantes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
