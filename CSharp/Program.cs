@@ -31,7 +31,8 @@ namespace CSharp {
                 //Estruturas de Controle
                 {"Estrutura IF/ELSE - Estruturas de Controle", EstruturaIFELSE.Executar },
                 {"Estrutura Switch - Estruturas de Controle", EstruturaSwitch.Executar },
-                {"Estrutura While - Estruturas de Controle", EstruturaWhile.Executar }
+                {"Estrutura While - Estruturas de Controle", EstruturaWhile.Executar },
+                {"Exercício: Menor Diferença - Estruturas de Controle", ExercicioMenorDiferenca.Executar },
             });
 
             central.SelecionarEExecutar();

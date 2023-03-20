@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CSharp.EstruturasDeControle {
-    internal class EstruturaWhile {
+    class EstruturaWhile {
+        public static void Executar() {
+            
+        }
     }
 }

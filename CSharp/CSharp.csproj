@@ -47,6 +47,7 @@
     <Compile Include="EstruturasDeControle\EstruturaIFELSE.cs" />
     <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
     <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
+    <Compile Include="EstruturasDeControle\ExercicioMenorDiferenca.cs" />
     <Compile Include="Fundamentos\Comentários.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\FormatandoNumero.cs" />
