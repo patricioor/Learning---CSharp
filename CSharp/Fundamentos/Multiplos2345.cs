@@ -28,13 +28,13 @@
 using System;
 
 namespace CSharp {
-    class Teste {
+    class Multiplos2345 {
         public static void Executar() {
             int m2 = 0, m3 = 0, m4 = 0, m5 = 0;
 
             Console.WriteLine("Insira a quantidade de números que irá inserir: ");
             int.TryParse(Console.ReadLine(), out int n);
-            if (n <= 1 || n >= 1000) {
+            if (n <= 1 ^ n >= 1000) {
                 Console.WriteLine("Número inválido");
                 return;
             }
@@ -43,7 +43,7 @@ namespace CSharp {
                 for (int i = 0; i < n; i++) {
                     Console.WriteLine("Insira os números: ");
                     int.TryParse(Console.ReadLine(), out int Li);
-                    if (Li <= 1 || Li >= 100) {
+                    if (Li <= 1 ^ Li >= 100) {
                         Console.WriteLine("Número inválido");
                         return;
                     }

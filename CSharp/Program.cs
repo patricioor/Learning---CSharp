@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 
 using CSharp.Fundamentos;
+using CSharp.EstruturasDeControle;
 
 namespace CSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+
+                //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentários.Executar},
                 {"Variáveis e Constantes - Fundamentos", VariáveisEConstantes.Executar},
@@ -22,9 +25,13 @@ namespace CSharp {
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
-                {"Exercício: Múltiplos de 2,3,4 e 5", Teste.Executar },
-                {"Exercício: Número primo", NumeroPrimo.Executar }
+                {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
+                {"Exercício: Número primo", NumeroPrimo.Executar },
 
+                //Estruturas de Controle
+                {"Estrutura IF/ELSE - Estruturas de Controle", EstruturaIFELSE.Executar },
+                {"Estrutura Switch - Estruturas de Controle", EstruturaSwitch.Executar },
+                {"Estrutura While - Estruturas de Controle", EstruturaWhile.Executar }
             });
 
             central.SelecionarEExecutar();
