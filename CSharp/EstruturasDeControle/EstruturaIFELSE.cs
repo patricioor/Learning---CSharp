@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace CSharp.EstruturasDeControle {
-    class EstruturaIFELSE {
+    class EstruturaIfElse {
         public static void Executar() {
             bool bomComportamento = false;
             string entrada;

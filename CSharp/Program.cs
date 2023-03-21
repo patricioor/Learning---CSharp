@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CSharp.Fundamentos;
 using CSharp.EstruturasDeControle;
+using CSharp.ClassesEMetodos;
 
 namespace CSharp {
     class Program {
@@ -29,10 +30,19 @@ namespace CSharp {
                 {"Exercício: Número primo", NumeroPrimo.Executar },
 
                 //Estruturas de Controle
-                {"Estrutura IF/ELSE - Estruturas de Controle", EstruturaIFELSE.Executar },
+                {"Estrutura IF/ELSE - Estruturas de Controle", EstruturaIfElse.Executar },
                 {"Estrutura Switch - Estruturas de Controle", EstruturaSwitch.Executar },
                 {"Estrutura While - Estruturas de Controle", EstruturaWhile.Executar },
+                {"Estrutura Do-While - Estruturas de Controle", EstruturaDoWhile.Executar },
+                {"Estrutura For - Estruturas de Controle", EstruturaFor.Executar },
+                {"Estrutura ForEach - Estruturas de Controle", EstruturaForEach.Executar },
+                {"Usando Break; - Estruturas de Controle", UsandoBreak.Executar },
+                {"Usando Continue; - Estruturas de Controle", UsandoContinue.Executar },
                 {"Exercício: Menor Diferença - Estruturas de Controle", ExercicioMenorDiferenca.Executar },
+
+                // Classes & Métodos
+                {"Membros: Atributos e Métodos - Classes e Métodos", Membros.Executar },
+                
             });
 
             central.SelecionarEExecutar();
